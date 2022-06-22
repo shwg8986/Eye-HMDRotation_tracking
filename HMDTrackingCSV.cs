@@ -20,7 +20,7 @@ public class HMDTrackingCSV : MonoBehaviour
     //HMDの回転座標格納用（オイラー角）
     private Vector3 HMDRotation;
 
-    //時間格納
+    //時間とFPS格納
     float Time_;
     float FPS;
 
@@ -40,7 +40,7 @@ public class HMDTrackingCSV : MonoBehaviour
     {
         Time_ = UnityEngine.Time.time;
 
-        //Head（ヘッドマウンドディスプレイ）の情報を一時保管-----------
+        //HMDの情報を取得-----------
         //位置座標を取得
         HMDPosition = InputTracking.GetLocalPosition(XRNode.Head);
         //回転座標をクォータニオンで値を受け取る
