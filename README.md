@@ -1,4 +1,7 @@
 # Eye-HMDRotation_tracking
+
+#自分用メモ
+
 HMD vive pro eyeを用いてunityVRゲーム中に眼球運動特性とHMDの回転座標（オイラー角とクォータニオン）を取得するスクリプト。
 
 サンプリングレートを50FPSで固定するためにFixedUpdate関数を使用している。
