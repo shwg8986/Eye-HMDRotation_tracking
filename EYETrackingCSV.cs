@@ -10,7 +10,7 @@ namespace ViveSR
     {
         namespace Eye
         {
-            public class VIVEsample : MonoBehaviour
+            public class EYETrackingCSV : MonoBehaviour
             {
                 //csv
                 public string filename = "EyeTracking";
